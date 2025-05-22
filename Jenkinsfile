@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone') {
-            steps {
-                git 'https://github.com/Bhawna0628/jenkinsPC.git'
-            }
-        }
 
         stage('Build') {
             steps {
